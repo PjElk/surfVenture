@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SurfVenture</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-logo">
+        <img
+          class="logo"
+          alt="SurfVenture logo"
+          src="img/logos/surfventure-logo.png"
+        />
+      </div>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="#how-it-works">How it works</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="#boards-and-destinations"
+              >Boards and Destinations</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li>
+            <a
+              class="main-nav-link"
+              href="../saveForLater_page/saveForLater.html"
+              >Save for later page</a
+            >
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href="#contact-us">Contact us</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn btn--full margin-right-sm" id="toggle-menu">
+        Toggle Menu
+      </button>
+    </header>
+
+    <!-- Hero Section  -->
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Ride the Waves, Anytime, Anywhere</h1>
+            <p class="hero-description">
+              SurfVenture is your all-in-one app for planning the perfect
+              surfing getaway. Whether you're a seasoned pro or a beginner
+              looking to catch your first wave, SurfVenture makes booking your
+              next surf trip effortless.
+            </p>
+            <a
+              href="../getApp_page/getApp.html"
+              class="btn btn--full margin-right-sm"
+              >Get SurfVenture App</a
+            >
+            <a href="../aboutUs_page/aboutUS.html" class="btn btn--outline"
+              >About Us &darr;</a
+            >
+
+            <!-- Client Images  -->
+
+            <div class="adventures-booked">
+              <div class="booked-imgs">
+                <img
+                  src="img/customers/customer1.jpg"
+                  alt="photo of customer"
+                />
+                <img
+                  src="img/customers/customer2.jpg"
+                  alt="photo of customer"
+                />
+                <img
+                  src="img/customers/customer3.jpg"
+                  alt="photo of customer"
+                />
+                <img
+                  src="img/customers/customer4.jpg"
+                  alt="photo of customer"
+                />
+                <img
+                  src="img/customers/customer5.jpg"
+                  alt="photo of customer"
+                />
+                <img
+                  src="img/customers/customer6.jpg"
+                  alt="photo of customer"
+                />
+              </div>
+              <p class="booked-text">
+                <span>125,000+</span> trips booked last year!
+              </p>
+            </div>
+          </div>
+
+          <!-- Hero Image for landing page  -->
+
+          <div class="hero-img-box">
+            <img
+              src="img/heroSection/hero-image.png"
+              class="hero-img"
+              alt="Woman surfing on a wave"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works section with APP Mock up  -->
+
+      <section id="how-it-works" class="section-how">
+        <div class="container">
+          <span class="subheading">How it works</span>
+          <button
+            class="save-later-btn btn btn--full"
+            data-id="How it works"
+            data-title="How it works section"
+          >
+            Save for later
+          </button>
+          <h2 class="heading-secondary">Your surf trip in 3 easy steps</h2>
+        </div>
+        <div class="container grid grid--2--cols grid--center-v">
+          <!-- Step 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+
+            <h3 class="heading-tertiary">
+              Let us know your surfing and fitness level
+            </h3>
+            <p class="step-description">
+              At SurfVenture, we understand that every surfer has unique needs
+              and preferences. That's why we offer personalized trip planning
+              based on your fitness level.
+            </p>
+          </div>
+
+          <!-- background of image  -->
+
+          <div class="wave">
+            <img
+              src="img/app/app-screen1.png"
+              class="step-img"
+              alt="App screen showing preferences selection"
+            />
+          </div>
+
+          <!-- Step 02 -->
+
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">
+              Select your preferred wave and board
+            </h3>
+            <p class="step-description">
+              With SurfVenture, selecting your perfect wave and board has never
+              been easier. Our app allows you to specify the type of waves you
+              prefer, whether it's gentle swells for a relaxed ride, medium
+              waves for a bit more excitement, or powerful breaks for the
+              ultimate thrill. Additionally, you can choose the type of
+              surfboard that suits your style.
+            </p>
+          </div>
+
+          <!-- background of image  -->
+
+          <div class="wave">
+            <img
+              src="img/app/app-screen2.png"
+              class="step-img"
+              alt="App screen showing preferences selection"
+            />
+          </div>
+
+          <!-- Step 03 -->
+
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">
+              Self-select your destination or let us recommend
+            </h3>
+            <p class="step-description">
+              With SurfVenture, you have the freedom to self-select your dream
+              surfing destination or let us recommend the perfect spot for you.
+              If you already have a favorite beach or a new location on your
+              bucket list, simply choose it from our extensive list of top surf
+              destinations.
+            </p>
+
+            <button
+              class="like-btn"
+              data-id="How it works"
+              data-title="How it works section"
+            >
+              Like
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                />
+              </svg>
+            </button>
+          </div>
+
+          <!-- background of image  -->
+
+          <div class="wave">
+            <img
+              src="img/app/app-screen3.png"
+              class="step-img"
+              alt="App screen showing destination selection"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Board and destination section  -->
+
+      <section id="boards-and-destinations" class="section-pairing">
+        <div class="container center-text">
+          <span class="subheading">Boards and Destinations</span
+          ><button
+            class="save-later-btn btn btn--full"
+            data-id="boards-and-destinations"
+            data-title="Board and destination section"
+          >
+            Save for later
+          </button>
+          <button
+            class="like-btn"
+            data-id="boards-and-destinations"
+            data-title="boards-and-destination section"
+          >
+            Like
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+              />
+            </svg>
+          </button>
+          <h2 class="heading-secondary">
+            Your choices will pair with the best board and destination
+          </h2>
+        </div>
+
+        <!-- Image of boards with board description  -->
+
+        <div class="container grid grid--3--cols margin-bottom-md">
+          <div class="pairing">
+            <img
+              src="img/cardHeader/cardHeader1.jpg"
+              class="pairing-img"
+              alt="Surfboard on a beach"
+            />
+            <div class="pairing-content">
+              <p class="pairing-title">Short Board</p>
+              <ul class="pairing-attributes">
+                <li class="pairing-attribute">
+                  <span><strong>4.9</strong> Rating (537 Reviews)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Image of Map with country description  -->
+
+          <div class="pairing">
+            <img
+              src="img/cardHeader/cardHeader2.jpg"
+              class="pairing-img"
+              alt="Surfboard and waves"
+            />
+            <div class="pairing-content">
+              <p class="pairing-title">Bali</p>
+              <ul class="pairing-attributes">
+                <li class="pairing-attribute">
+                  <span><strong>4.8</strong> Rating (441 Reviews)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Table showing what board for what weight  -->
+
+          <div class="boards">
+            <h3 class="heading-tertiary">Works with any surfboard</h3>
+            <button
+              class="save-later-btn btn btn--full"
+              data-id="Board sizing"
+              data-title="Board selection table"
+            >
+              Save for later
+            </button>
+
+            <div class="boards">
+              <ul class="list">
+                <li class="list-item">
+                  ><span>Long Boards</span>
+                  <table>
+                    <tr>
+                      <th>Your Weight</th>
+                      <th>Your Board Size</th>
+                    </tr>
+                    <tr>
+                      <td>45 - 63kg</td>
+                      <td>9' 2" - 9' 4"</td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="list-item">
+                  ><span>Short Boards</span>
+                  <table>
+                    <tr>
+                      <th>Your Weight</th>
+                      <th>Your Board Size</th>
+                    </tr>
+                    <tr>
+                      <td>45 - 63kg</td>
+                      <td>9' 2" - 9' 4"</td>
+                    </tr>
+                  </table>
+                </li>
+                <li class="list-item">
+                  ><span>Fun Boards</span>
+                  <table>
+                    <tr>
+                      <th>Your Weight</th>
+                      <th>Your Board Size</th>
+                    </tr>
+                    <tr>
+                      <td>45 - 63kg</td>
+                      <td>9' 2" - 9' 4"</td>
+                    </tr>
+                  </table>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hyperlink for all boards  -->
+
+        <div class="container">
+          <div class="external-links">
+            <a
+              href="https://www.surfertoday.com/board-size-chart/surf"
+              class="link"
+              >See all surfboards &rarr;</a
+            >
+            <a
+              href="https://edition.cnn.com/travel/article/50-surf-spots/index.html"
+              class="link"
+              >See 50 best surf spots &rarr;</a
+            >
+            <button
+              class="like-btn"
+              data-id="Surfboards to weight"
+              data-title="Surfboards to weight section"
+            >
+              Like
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+
+      <section id="testimonials" class="section-testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">Once you try it, you can't go back</h2>
+
+          <!-- Client 1 Testimonial Section -->
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/customer1.jpg"
+              />
+              <blockquote class="testimonial-text">
+                SurfVenture made planning my surf trip a breeze! From choosing
+                the perfect waves to selecting the right board, everything was
+                seamless and easy. I can't imagine booking a surf trip any other
+                way now.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Jane Harper</p>
+            </figure>
+
+            <!-- Client 2 Testimonial Section -->
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/customer2.jpg"
+              />
+              <blockquote class="testimonial-text">
+                As a beginner, I was nervous about planning a surf trip on my
+                own. But SurfVenture's personalized approach made it simple and
+                enjoyable. I had an amazing experience catching my first wave!
+              </blockquote>
+              <p class="testimonial-name">&mdash; John Runner</p>
+            </figure>
+
+            <!-- Client 3 Testimonial Section -->
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/customer3.jpg"
+              />
+              <blockquote class="testimonial-text">
+                SurfVenture is a game-changer for surf enthusiasts! The app's
+                recommendations for destinations and boards were spot on. I had
+                one of the best surf trips of my life thanks to SurfVenture.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Jessica Smith</p>
+            </figure>
+
+            <!-- Client 4 Testimonial Section -->
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer"
+                src="img/customers/customer4.jpg"
+              />
+              <blockquote class="testimonial-text">
+                SurfVenture is it's just life changing. It's so easy, I am going
+                back this year for my fourth trip.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Margie Hula</p>
+            </figure>
+          </div>
+        </div>
+
+        <!-- Gallery within Testimonial Section -->
+
+        <div class="gallery">
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image1.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery1"
+              data-title="Surfing_image_1"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike1" data-title="Surf1">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image2.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery2"
+              data-title="Surfing_image_2"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike2" data-title="Surf2">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image3.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery3"
+              data-title="Surfing_image_3"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike3" data-title="Surf3">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image4.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery4"
+              data-title="Surfing_image_4"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike4" data-title="Surf4">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image5.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery5"
+              data-title="Surfing_image_5"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike5" data-title="Surf5">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image6.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery6"
+              data-title="Surfing_image_6"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike6" data-title="Surf6">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image7.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery7"
+              data-title="Surfing_image_7"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike7" data-title="Surf7">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image8.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery8"
+              data-title="Surfing_image_8"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike8" data-title="Surf8">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image9.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery9"
+              data-title="Surfing_image_9"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike9" data-title="Surf9">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image10.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery10"
+              data-title="Surfing_image_10"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike10" data-title="Surf10">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image11.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery11"
+              data-title="Surfing_image_11"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike11" data-title="Surf11">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+          <figure class="gallery-item item-list item">
+            <img
+              src="img/gallery/surf-image12.jpg"
+              alt="image of surfing"
+            /><button
+              class="save-later-btn btn btn--full"
+              data-id="Surfing Gallery12"
+              data-title="Surfing_image_12"
+            >
+              Save for later
+            </button>
+            <div>
+              <button class="like-btn" data-id="SurfLike12" data-title="Surf12">
+                Like
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+
+      <section id="contact-us" class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">
+                Ready to catch the perfect wave?
+              </h2>
+
+              <section class="contact-us">
+                <div class="container">
+                  <h2>Contact us</h2>
+
+                  <!-- Contact form. No Server Side so add placeholder for action. -->
+
+                  <div class="contact-form">
+                    <form action="#" method="post">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Name*"
+                      />
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Email*"
+                      />
+                      <input
+                        type="text"
+                        id="subject"
+                        name="subject"
+                        placeholder="Subject"
+                      />
+                      <textarea
+                        id="comment"
+                        name="comment"
+                        rows="8"
+                        placeholder="Message"
+                      ></textarea>
+
+                      <p>Would you like to sign up to our newsletter:</p>
+
+                      <input
+                        type="radio"
+                        id="yes"
+                        name="fav_language"
+                        value="YES"
+                      />
+                      <label for="yes">YES</label><br />
+                      <input
+                        type="radio"
+                        id="no"
+                        name="fav_language"
+                        value="NO"
+                      />
+                      <label for="no">NO</label><br />
+
+                      <button type="submit" class="btn btn-primary btn-xl">
+                        Submit
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="/saveForLater_page/js/script.js"></script>
+  </body>
+</html>
