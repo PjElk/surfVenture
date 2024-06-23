@@ -1,0 +1,140 @@
+/*********************************************/
+/* GENERIC PAGE */
+/*********************************************/
+
+body {
+  background-color: #b4d2d3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-shadow: #259faf 0.02em 0.02em;
+  font-family: "QlassikBold", sans-serif;
+}
+
+h2 {
+  font-size: 2.3em;
+}
+
+.content {
+  padding-top: 100px;
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+
+.content p {
+  font-size: 1em;
+  line-height: 1.8em;
+  margin-bottom: 1.1em;
+}
+
+/***** HOMEPAGE *****/
+
+#details {
+  position: relative;
+  float: right;
+  width: 527px;
+  margin-top: 80px;
+  padding-left: 20px;
+}
+
+#icon {
+  position: relative;
+  float: left;
+  margin-right: 20px;
+}
+
+#app-name {
+  position: relative;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#app-name h1 {
+  font-size: 4.5em;
+
+  color: #152636;
+  text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3,
+    #020763 0.03em 0.03em;
+}
+
+#version {
+  top: 20px;
+  position: relative;
+  float: left;
+}
+
+#tagline {
+  font-size: 1.4em;
+  margin-top: 6em;
+  clear: both;
+}
+
+#description {
+  margin-top: 2em;
+  margin-bottom: 1.8em;
+}
+
+#features li {
+  list-style: none;
+  padding-left: 25px;
+  margin-left: -23px;
+  line-height: 1.7em;
+}
+
+.download-box {
+  width: 45%;
+  float: left;
+  padding-top: 20px;
+  padding-right: 5%;
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+/***** ABOUT PAGE *****/
+
+.updates ul {
+  list-style: none;
+  padding-top: 10px;
+  clear: both;
+  margin: 0 0 25px 0;
+}
+
+.updates ul li {
+  margin-bottom: 10px;
+}
+
+.updates hr {
+  border-top: 1px solid #152636;
+}
+
+.updates .label {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.version {
+  float: left;
+}
+
+.release-date {
+  float: right;
+  margin-top: 4px;
+  color: #999;
+  font-size: 0.85em;
+}
+
+.new {
+  background-color: #3a87ad;
+}
+
+.fix {
+  background-color: #468847;
+  padding: 1px 8px 2px;
+}
